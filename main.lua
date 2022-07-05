@@ -1,3 +1,5 @@
+require("stolencode")
+
 function love.load()
 end
 
