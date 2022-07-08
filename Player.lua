@@ -26,7 +26,9 @@ function Player:update(dt)
 end
 
 function Player:draw()
+    love.graphics.setColor(0, 0, 1)
     love.graphics.rectangle("fill", Player.xpos, Player.ypos, Player.Width, Player.Height)
+    love.graphics.setColor(1, 1, 1)
 end
 
 function Player:checkBounds()
