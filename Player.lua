@@ -2,7 +2,7 @@ Player = {}
 
 function Player:load()
     Player.xpos = 400
-    Player.ypos = 300
+    Player.ypos = 600
     Player.Width = 32
     Player.Height = 32
     Player.Speed = 400
